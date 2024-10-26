@@ -1,0 +1,52 @@
+.alert-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .alert-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .badge {
+    font-size: 0.85rem;
+    padding: 0.4em 0.6em;
+    border-radius: 8px;
+  }
+  
+  .location-details p {
+    font-size: 0.9rem;
+    margin: 0.3em 0;
+  }
+  
+  .time-stamp {
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
